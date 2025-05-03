@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5A61VdztHo=",
+  "dgSpecHash": "/0eFzInZMqk=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
+  "projectFilePath": "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jason\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
     "C:\\Users\\Jason\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.4\\microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512",

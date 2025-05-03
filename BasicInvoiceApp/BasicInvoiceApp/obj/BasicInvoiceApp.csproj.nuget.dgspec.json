@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj": {}
+    "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj": {
+    "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
+        "projectUniqueName": "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
         "projectName": "BasicInvoiceApp",
-        "projectPath": "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
+        "projectPath": "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\BasicInvoiceApp.csproj",
         "packagesPath": "C:\\Users\\Jason\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\BasicInvoiceApp\\BasicInvoiceApp\\obj\\",
+        "outputPath": "D:\\GitHub\\BasicInvoiceAppRepo\\BasicInvoiceApp\\BasicInvoiceApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

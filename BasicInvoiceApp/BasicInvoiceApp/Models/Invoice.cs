@@ -1,4 +1,6 @@
 ﻿using BasicInvoiceApp.Models.Base;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BasicInvoiceApp.Models
 {
@@ -15,5 +17,20 @@ namespace BasicInvoiceApp.Models
         public DateTime CreatedDate { get; set; }
         public string UpdatedBy { get; set; }
         public DateTime UpdatedDate { get; set; }
+    }
+
+    public class InvoiceEfConfig : IEntityTypeConfiguration<Invoice>
+    {
+        public void Configure(EntityTypeBuilder<Invoice> builder)
+        {
+            builder.HasKey(i => i.Id);
+            builder.Property(i => i.Date).IsRequired();
+            builder.Property(i => i.TotalAmount).IsRequired();
+            builder.Property(i => i.Status).IsRequired().HasMaxLength(50);
+            builder.HasOne(i => i.Customer)
+                .WithMany(c => c.Invoices)
+                .HasForeignKey(i => i.CustomerId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }
