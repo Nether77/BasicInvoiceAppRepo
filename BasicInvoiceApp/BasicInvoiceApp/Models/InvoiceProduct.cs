@@ -1,6 +1,8 @@
-﻿namespace BasicInvoiceApp.Models
+﻿using BasicInvoiceApp.Models.Base;
+
+namespace BasicInvoiceApp.Models
 {
-    public class InvoiceProduct
+    public class InvoiceProduct : IAddAuditable, IUpdateAuditable
     {
         public InvoiceProduct() { }
 
@@ -19,6 +21,9 @@
         public int Quantity { get; set; }
         public decimal TotalPrice => Product.Price * Quantity;
 
-
+        public string CreatedBy { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
